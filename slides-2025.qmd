@@ -1,0 +1,687 @@
+---
+format: 
+  revealjs:
+    width: 1600
+    height: 900    
+    slide-number: true
+    incremental: true 
+    scrollable: true
+    theme: ["slides-style.scss"]
+---
+
+# [Writing a Data Analysis]{.white} <br> [report]{.white} {background-image="figures/patrick-fore-typewriter.jpg" background-size="cover"}
+
+<h2>[ISI-BUDS 2025]{.light-blue}</h2>
+
+<h3>[Volodymyr Minin <br> (using materials developed by <br> 
+Dr. Federica Zoe Ricci <br> when she wasn't a doctor yet!)]{.light-green}</h3>
+
+
+
+## What are we learning today?
+
+-   **writing a paper** (data analysis report)
+
+    -   structure of a paper
+
+    -   strategies to get started writing
+
+    -   strategies for organizing the work
+
+    -   useful software
+
+    -   what is a good title/abstract? what is a good introduction?
+
+    -   look at examples of what’s good or less-good
+
+-   **USRESP competition**
+
+    -   guidelines and logistics
+
+## What is a data analysis (DA) paper?
+
+It's usually the **culmination of a research project**.
+
+. . .
+
+::: columns
+::: {.column width="50%"}
+It is a document to describe to someone:
+
+-   an interesting problem (that they might not know)
+
+-   ways to approach the problem (that they might not know!)
+
+-   what results one gets when they approach the problem in these ways
+
+-   what insights these results tell us (and how they relate to other insights that people could read elsewhere)
+:::
+
+::: {.column width="50%"}
+:::
+:::
+
+## What is a data analysis (DA) paper?
+
+It's usually the culmination of a research project.
+
+::: columns
+::: {.column width="50%"}
+It is a document to describe to someone:
+
+::: nonincremental
+1.  [an interesting problem (that they might not know)]{.evergreen}
+
+2.  [ways to approach the problem (that they might not know!)]{.medium-green}
+
+3.  [what results one gets when they approach the problem in these ways]{.maroon}
+
+4.  [what insights these results tell us (and how they relate to other insights that people can find elsewhere)]{.dark-pink}
+:::
+:::
+
+::: {.column width="50%"}
+What are the **common sections** of DA report?
+
+::: nonincremental
+-   Title
+
+-   Abstract
+
+    1.  [Introduction (Background)]{.evergreen}
+
+    2.  [Methods]{.medium-green}
+
+    3.  [Results]{.maroon}
+
+    4.  [Discussion/Conclusion]{.dark-pink}
+
+-   References
+:::
+:::
+:::
+
+## But... why writing a paper?
+
+-   Personal satisfaction
+
+    -   see project come together
+    
+. . . 
+    
+![](figures/motivation.png){width="1000"}
+
+-   Gain experience with scientific writing (essential in every data science jobs, not only academia)
+
+-   Can talk about this experience in your cover letter for grad school
+
+## Why submitting a paper to a competition
+
+-   Motivation
+
+    -   Let's be real, we all do best when we are **targeting a clear output** and a **deadline**
+
+-   Get feedback
+
+    -   With a competition to work for, there can be a process of back-and-forth feedback from your supervisor(s) on this project, that you **can learn a lot from**!
+
+-   Your CV
+
+    -   You could be among the winners 
+
+-   Learn some concrete guidelines and judging criteria
+
+    -   We do some of this together today
+
+
+## Three workshop parts
+
+-   The elements of a good paper
+
+-   Writing a paper (hands-on work in teams)
+
+-   Final remarks and links to resources
+
+## Examples of DA papers
+
+Previous winners and honorable mentions at USRESP include[^1] :
+
+[^1]: [causeweb.org/usproc/projects/winners](https://www.causeweb.org/usproc/projects/winners)
+
+| Topic                                     | Title and Link                                                                                                                                                                                                                                                                                                                                                                        |
+|--------------|----------------------------------------------------------|
+| Drug treatment dropout                    | [*Psychiatric Comorbidity in Opioid Use Treatment Outcomes*](https://www.causeweb.org/usproc/sites/default/files/usresp/2021-2/Psychiatric%20Comorbidity%20in%20Opioid%20Use%20Treatment%20Outcomes.pdf)*,* Linda Tang (Fall 2021)                                                                                                                                                    |
+| Air pollution over time                   | [*Behind The Smoke: An Extreme Value Analysis Of Air Pollution In Minnesota*](https://www.causeweb.org/usproc/sites/default/files/usresp/2022-1/behind-the-smoke.pdf)*,* Yicheng Shen, Jacob Flignor, Libby Nachreiner, & Karen Wang (Spring 2022)                                                                                                                                    |
+| Prediction and management of flash floods | [*Storm Chasers: Synthesizing New England Weather Data On A Dashboard For Emergency Response Workers*](https://www.causeweb.org/usproc/sites/default/files/usresp/2022-2/storm%20chasers%20synthesizing%20new%20england%20weather%20data%20on%20a%20dashboard%20for%20emergency%20response%20workers.pdf) Irene Foster, Sunshine Schneider, Caitlin Timmons, Katelyn Diaz (Fall 2022) |
+
+# The elements of a good paper
+
+## What makes for a good data analysis paper?
+
+::: {.callout-warning icon="false"}
+## [{{< fa circle-question >}} Question]{.black}
+
+Discuss in teams and identify **one to three elements** you think should characterize a good data analysis paper (2 minutes)
+:::
+
+. . .
+
+-   It is clear and easy to read
+
+-   It tells an interesting story
+
+-   It makes a good statistical analysis and explains the results well
+
+## What makes for a good data analysis paper?
+
+::: {.callout-warning icon="false"}
+## [{{< fa circle-question >}} Question]{.black}
+
+Discuss in teams and identify **one to three elements** you think should characterize a good data analysis paper (2 minutes)
+:::
+
+::: nonincremental
+-   It is clear and easy to read {{< fa arrow-right >}} *Overall [clarity]{.dark-pink} and [presentation]{.dark-pink}*[^2]
+
+-   It tells an interesting story {{< fa arrow-right >}} [*Originality, creativity*]{.purple}*, and [significance]{.purple} of the study*<sup>1</sup>
+
+-   It makes a good statistical analysis and explains the results well {{< fa arrow-right >}} [*Accuracy*]{.evergreen} *of data analysis, conclusions, and discussion*<sup>1</sup>
+:::
+
+[^2]: From *Assessment of the USRESP projects* on [causeweb.org/usproc/usresp](https://www.causeweb.org/usproc/usresp)
+
+## What affects overall [clarity and presentation]{.dark-pink}?
+
+::: callout-tip
+## [**What content is included/not included**]{.black}
+
+Good principle: *every element in a story must be necessary, and irrelevant elements should be removed*
+:::
+
+. . .
+
+Examples of common problems:
+
+-   Not understandable to a reader with little knowledge of the applied domains
+
+-   Define something that you are never going to use\
+    {{< fa arrow-right >}} e.g. Define HIV, describe its implications and prevalence, but then your analysis does not use information on HIV and HIV is never mentioned again (e.g. in the discussion)
+
+-   Use terminology, acronyms or metrics that you have not defined
+
+    -   *When I was wrong*: It does *not* read as 'advanced'
+
+    -   Every acronym that you are going to use needs to be defined the first time you use it - [example {{< fa magnifying-glass >}}](https://www.causeweb.org/usproc/sites/default/files/usresp/2023-2/usresp%203174%20-%20extending%20multiple%20testing%20with%20unknown%20test%20dependency%20via%20the%20coco%20test%20with%20applications%20to%20cancer%20studies.pdf) (OS and PFS in Introduction)
+
+## What affects overall [clarity and presentation]{.dark-pink}?
+
+::: callout-tip
+## [**How content is organized in your paper**]{.black}
+
+If you read your paper: *can you tell what the story is?*
+:::
+
+Common problems:
+
+-   Wait too long before (or never) state what you worked on *exactly*
+
+. . .
+
+::: callout-tip
+In the introduction, explicitly **state the hypothesis/goals** of the paper.
+:::
+
+A [good example {{< fa magnifying-glass >}}](https://www.causeweb.org/usproc/sites/default/files/usresp/2021-2/Psychiatric%20Comorbidity%20in%20Opioid%20Use%20Treatment%20Outcomes.pdf): *Psychiatric Comorbidity in Opioid Use Treatment Outcomes* by Linda Tang (last paragraph of Introduction)
+
+## What affects [originality, creativity and significance]{.purple}?
+
+::: nonincremental
+-   The analysis seems to address a not so interesting question
+
+::: callout-tip
+## Tips
+
+-   Always try to work on an interesting application
+
+-   What is something *you* think is particularly exciting of the topic - make sure you communicate that excitement!
+:::
+:::
+
+. . .
+
+::: nonincremental
+-   The paper feels a little 'dull'
+
+::: callout-tip
+Can you add an effective and eye-catching visualization to represent your topic?
+
+A [good example {{< fa magnifying-glass >}}](https://www.causeweb.org/usproc/sites/default/files/usresp/2022-1/behind-the-smoke.pdf): *Behind The Smoke: An Extreme Value Analysis Of Air Pollution In Minnesota* by Yicheng Shen, Jacob Flignor, Libby Nachreiner, & Karen Wang (Figure 1, Introduction)
+:::
+:::
+
+## What affects [accuracy]{.evergreen}?
+
+::: nonincremental
+-   Something about the data analysis seems inaccurate/inappropriate
+
+::: callout-tip
+## Tips
+
+-   Make sure to mention why a certain methodology was chosen, what else could be considered, why it was excluded
+:::
+:::
+
+. . .
+
+::: nonincremental
+-   Something about the interpretation of results seems inaccurate
+
+::: callout-tip
+-   Wait, so what is the answer to the research questions?
+
+-   Avoid overgeneralizing or overstating your results
+
+A good example
+
+![](figures/example-accuracy-2.png){fig-align="center"}
+
+From *Behind The Smoke: An Extreme Value Analysis Of Air Pollution In Minnesota* by Yicheng Shen, Jacob Flignor, Libby Nachreiner, & Karen Wang
+:::
+:::
+
+:::
+
+# Writing a paper
+
+## Getting started writing: when?
+
+-   *After* the project is concluded: Project –\> Writing
+
+    -   *Pros*: Content is decided
+
+    -   *Cons*: Content is decided
+
+-   *During* project development*:* Project *–\>* Writing -\> Project -\> ...
+
+    -   *Pros*: Writing about the project can improve the way you think about it and the choices you make
+
+    -   *Cons*: Content might change
+
+-   Can even think of the paper *before* starting working on the project: Writing -\> Project -\> ...
+
+    -   *Pros*: Thinking how you would write about the project can inform which project you end up working on
+
+## Back to the paper's structure
+
+-   Abstract - *overview of the project*
+
+-   Introduction - *what is your project about?*
+
+-   Methods - *what did you do and how?*
+
+-   Results - *what did you find out?*
+
+-   Discussion - *what do your findings mean?*
+
+## How to get started: Strategies
+
+. . .
+
+::: callout-tip
+## Strategy 1 - High level to low level
+
+1.  Create empty document, create empty sections
+
+2.  In each section, outline points to make
+
+3.  Visualize the resulting paper in your head, and reiterate 2., until it feels like the paper would tell the story well
+
+4.  In each section, list the paragraphs you need to write (i.e. the goal of the paragraphs and their sequence)
+
+5.  Fill-in the content of each paragraph accordingly
+
+-   This can be extremely helpful if you are co-writing the paper with others!
+:::
+
+. . .
+
+::: callout-tip
+## Strategy 2 - From results backward
+
+1.  Start from thinking how you would visualize the results: what are your main figures (tables)?
+
+2.  In reverse, plan Methods and Introduction to *tell the reader just all they need to know* to fully understand and appreciate the results.
+
+3.  Write the Discussion section. Edit the Introduction if needed, to provide necessary context to appreciate/anticipate discussion.
+:::
+
+. . .
+
+For the remaining of the workshop we will do a blend of these two strategies.
+
+## A paper "skeleton"
+
+In the [isi-buds organization](https://github.com/isi-buds) on GitHub, find and the repository `writing-workshop-2024`
+
+One person for each team, clone the workshop's repository (or download it); add a copy of the folder `paper` to your team's repository; push this change
+
+All team members: pull this update
+
+Together: look at what is in the folder
+
+## [Results]{.maroon}: Content
+
+*What did your study find out?*
+
+How to frame results section[^3]:
+
+[^3]: From *Assessment of the USRESP projects* on [causeweb.org/usproc/usresp](https://www.causeweb.org/usproc/usresp)
+
+-   typically, results sections **start with descriptive statistics** and **inferential** (i.e. hypothesis tests) **statistics come next**.
+
+-   information presented must be relevant in helping to answer the research question(s) of interest
+
+-   **Tables and figures** are useful in this section and should be labeled, embedded in the text, and **referenced appropriately**.
+
+## [Results]{.maroon}: Tips
+
+::: callout-tip
+## Tips
+
+-   Focus on a few, well explained points (e.g. 1, 2 or 3 main results)
+
+-   Think how you would visualize these results best
+
+-   Make these visualizations and write "around" the visualizations
+
+    -   Reference and make use of your Tables and Figures in the text. [Do not abandon them]{.medium-green}
+
+    -   Define a metric well - [example {{< fa magnifying-glass >}}](https://drive.google.com/drive/folders/1gRAAnH8o6nkAfnyC3VDZxffvuHXireWx) (highlighted text in Sec. 4.1)
+:::
+
+## [Results]{.maroon}: Workout
+
+Open the file paper/exercises/1-results.md and follow the instructions:
+
+-   Work in sub-teams (5 min)
+
+-   Talk within each team (3 min)
+
+-   One team shares with everyone (random pick).
+
+## [Methodology]{.maroon}: Content[^4]
+
+[^4]: From *Assessment of the USRESP projects* on [causeweb.org/usproc/usresp](https://www.causeweb.org/usproc/usresp)
+
+-   **Data collection**\
+    -   Explain how the data was collected/experiment was conducted.
+    -   Who was included? Who does this sample represent?
+    -   What were issues with data collection (e.g. non-response rates)? \[Note: don't discuss the impact of these issues here - save that for when you talk about limitations in the Discussion section.\]
+-   **Variable creation**\
+    -   What are the variables in your analysis and how are they defined? For example, if you created a combined (frequency times quantity) drinking variable you should describe how.
+-   **Analytic Methods**\
+    -   Explain the statistical procedures that will be used to analyze your data.
+
+## Methodology: [accuracy]{.evergreen}
+
+::: nonincremental
+-   **Choose a statistical model that accounts for specific aspects of the application considered (and motivate the choice)**
+:::
+
+::: {.callout-note icon="false"}
+## [{{< fa eye >}} Example]{.black}
+
+From *Psychiatric Comorbidity In Opioid Use Treatment Outcomes* (Linda Tang, winner at 2021 Fall USRESP)
+
+![](figures/example-accuracy-1.png){fig-align="center"}
+:::
+
+## Methodology: [clarity and presentation]{.dark-pink} of notation
+
+::: nonincremental
+-   **Make notation concrete**
+:::
+
+::: {.callout-note icon="false"}
+## [{{< fa eye >}} Example]{.black}
+
+From *An Evaluation Of Regularization Methods: When There Are More Predictors Than Observations* (Kenny Chen, honorable mention at 2021 Fall USRESP)
+
+![](figures/example-clarity-1.png){fig-align="center"}
+:::
+
+. . .
+
+Note: in *this* paper, this excerpt was from the Introduction section
+
+## Methodology: [clarity and presentation]{.dark-pink} - can you visualize your methods?
+
+::: nonincremental
+::: {.callout-note icon="false"}
+## [{{< fa eye >}} Example]{.black}
+
+-   **Design visualizations to help digest complicated methods**
+
+-   **Write clear figure captions**
+
+![](figures/example-clarity-2.png){fig-align="center" width="700"}
+
+From *Storm Chasers: Synthesizing New England Weather Data On A Dashboard For Emergency Response Workers* (Irene Foster, Sunshine Schneider, Caitlin Timmons, Katelyn Diaz,winner at 2022 Fall USRESP)
+:::
+:::
+
+## [Methodology]{.maroon}: Workout
+
+Open the file paper/exercises/2-methodology.md and follow the instructions:
+
+-   Work in sub-teams (5 min)
+
+-   Talk within each team (3 min)
+
+-   One team shares with everyone (random pick).
+
+## [Methodology]{.maroon}: Workout
+
+Open the file paper/exercises/1-results.md and follow the instructions:
+
+-   Work in sub-teams (10 min)
+
+-   Talk within each team (5 min)
+
+-   One team shares with everyone (random pick).
+
+## [Introduction]{.maroon}: Content
+
+-   **Logical organization**, moving from the **general to the specific**
+
+-   Provide **sufficient background** **to understand** the paper
+
+-   **Relate this paper to other work** in the scientific literature
+
+-   Provide explanation for **why this work is important**
+
+-   End with **statements about the hypothesis/goals** of the paper
+
+. . .
+
+::: {.callout-tip icon="true"}
+-   As you write, think that every undergraduate student should be able to follow your introduction.
+
+-   You can be specific, but be gentle, e.g. remind the reader of definitions.
+
+-   You *can* write obvious things to establish the grounds, e.g. *Alzheimer disease is one of the main challenges faced by modern medicine.*. Pro-move is back it up with figures/statements from a reputable source, e.g. *Indeed, an estimated %% of adults will develop this disease as they age \[citation\]*.
+:::
+
+## Introduction: [originality, creativity and significance]{.purple}
+
+::: nonincremental
+-   **Highlight the contributions of your work** {{< fa arrow-right >}} Significance
+:::
+
+::: {.callout-note icon="false"}
+## [{{< fa eye >}} Example]{.black}
+
+From *Exploring Missingness and its Implications on Traffic Stop Data* (Amber Lee, winner at 2020 Fall USRESP)
+
+![](figures/example-significance-1.png){fig-align="center"}
+:::
+
+## Introduction: [originality, creativity and significance]{.purple}
+
+::: nonincremental
+-   **Highlight the potential implications of your work in thee real-world** {{< fa arrow-right >}} Significance
+:::
+
+::: {.callout-note icon="false"}
+## [{{< fa eye >}} Example]{.black}
+
+From *Psychiatric Comorbidity in Opioid Use Treatment Outcomes* (Linda Tang , winner at 2021 Fall USRESP)
+
+![](figures/example-significance-3.png){fig-align="center"}
+:::
+
+## [Introduction]{.maroon}: Workout
+
+Open the file paper/exercises/3-introduction.md and follow the instructions:
+
+-   Work in sub-teams (10 min)
+
+-   Talk within each team (5 min)
+
+-   One team shares with everyone (random pick).
+
+## [Discussion]{.maroon}: Content[^5]
+
+[^5]: From *Assessment of the USRESP projects* on [causeweb.org/usproc/usresp](https://www.causeweb.org/usproc/usresp)
+
+-   Clearly state whether the results answer the question (support or disprove the hypothesis)?
+
+-   Cite specific data from the results to support each interpretation. Articulate the basis for supporting or rejecting each hypothesis
+
+-   Relate the results of the current work to previous research
+
+. . .
+
+This depends on the *exact* results you get, there is not much to plan ahead! (So no workout)
+
+## [Abstract]{.maroon}
+
+Why do we write it?
+
+-   Give the reader an overview of what they will find in the paper if they move on to read it.
+
+. . .
+
+How can we achieve that? A simple way:
+
+-   One sentence that summarizes the [introduction]{style="color:#1277E3;"}. One for the [background]{style="color:#098309;"}. One for the [methods]{style="color:#E58F1B;"}. One for the [results]{style="color:#C01BE5;"}. One for the [discussion]{style="color:#E51B80;"}.
+
+. . .
+
+## General [abstract]{.maroon} example
+
+<br>
+
+[XXX is important because of YYY.]{style="color:#1277E3;"} [Previous studies demonstrated / have neglected ZZZ.]{style="color:#098309;"} [In this work we do QQQ.]{style="color:#E58F1B;"} [We find that BBB.]{style="color:#C01BE5;"} [Our study suggests that KKK.]{style="color:#E51B80;"}
+
+## Specific [abstract]{.maroon} example
+
+From *Behind The Smoke: An Extreme Value Analysis Of Air Pollution In Minnesota* by Yicheng Shen, Jacob Flignor, Libby Nachreiner, & Karen Wang (USRESP 2022 Spring)
+
+::: {.callout-note icon="false"}
+## [{{< fa eye >}} Example]{.black}
+
+Poor air quality is a major environmental health threat. Even short-term exposure to poor air quality— such as during extreme pollution events—can cause severe respiratory distress. While there have been significant decreases in Minnesota air pollution levels over the past 40 years, the summer of 2021 upset this trend with Hennepin County reporting the highest particulate measure in the past 20 years. This study focuses on analyzing the extreme values of pollutant concentration levels of sulfur dioxide (SO2) and fine inhalable particles (PM2.5) across three Minnesota counties as collected by the Environmental Protection Agency from 1980 to 2021. We employ extreme value analysis methods to fit the pollutant data. The models find that SO2 levels have fallen substantially since 1980 in accordance with EPA policies regulating diesel fuel and coal power plants. This dramatic decrease has made the magnitude of severe pollution incidents appear far more extreme than in earlier decades, with typical events in the 1980-1990s often equating to one in a hundred year events today. By contrast, no downward trend in PM2.5 levels was observed over the past 20 years, an expected result given that PM2.5 has more varied sources and is therefore harder to regulate than SO2. However, models show a significant seasonal trend with peaks during winter months, revealing this past ‘summer of smoke’ as particularly extreme.
+:::
+
+Can you see what summarizes the [introduction]{style="color:#1277E3;"}? What relates to the [background]{style="color:#098309;"}? What relates to the [methods]{style="color:#E58F1B;"}? What relates to the [results]{style="color:#C01BE5;"}? What relates to the [discussion]{style="color:#E51B80;"}?
+
+## Specific [abstract]{.maroon} example
+
+From *Behind The Smoke: An Extreme Value Analysis Of Air Pollution In Minnesota* by Yicheng Shen, Jacob Flignor, Libby Nachreiner, & Karen Wang (USRESP 2022 Spring):
+
+::: {.callout-note icon="false"}
+## [{{< fa eye >}} Example]{.black}
+
+[Poor air quality is a major environmental health threat. Even short-term exposure to poor air quality— such as during extreme pollution events—can cause severe respiratory distress.]{style="color:#1277E3;"} [While there have been significant decreases in Minnesota air pollution levels over the past 40 years, the summer of 2021 upset this trend with Hennepin County reporting the highest particulate measure in the past 20 years.]{style="color:#098309;"} [This study focuses on analyzing the extreme values of pollutant concentration levels of sulfur dioxide (SO2) and fine inhalable particles (PM2.5) across three Minnesota counties as collected by the Environmental Protection Agency from 1980 to 2021. We employ extreme value analysis methods to fit the pollutant data.]{style="color:#E58F1B;"} [The models find that SO2 levels have fallen substantially since 1980]{style="color:#C01BE5;"}[in accordance with EPA policies regulating diesel fuel and coal power plants.]{style="color:#E51B80;"} [This dramatic decrease has made the magnitude of severe pollution incidents appear far more extreme than in earlier decades, with typical events in the 1980-1990s often equating to one in a hundred year events today.]{style="color:#E51B80;"} [By contrast, no downward trend in PM2.5 levels was observed over the past 20 years,]{style="color:#C01BE5;"}[an expected result given that PM2.5 has more varied sources and is therefore harder to regulate than SO2.]{style="color:#E51B80;"} [However, models show a significant seasonal trend with peaks during winter months,]{style="color:#C01BE5;"}[revealing this past ‘summer of smoke’ as particularly extreme.]{style="color:#E51B80;"}
+:::
+
+Can you see what summarizes the [introduction]{style="color:#1277E3;"}? What relates to the [background]{style="color:#098309;"}? What relates to the [methods]{style="color:#E58F1B;"}? What relates to the [results]{style="color:#C01BE5;"}? What relates to the [discussion]{style="color:#E51B80;"}?
+
+# Final remarks & Resources
+
+## USRESP
+
+<br>
+
+-   **Next deadline:** [December 2024]{.maroon} (usually Dec 20th)
+
+<br>
+
+-   **Everything** from USRESP shown today is on their website!
+
+    -   [General Information](https://www.causeweb.org/usproc/usresp)
+
+    -   [Template and evaluation criteria](https://www.causeweb.org/usproc/report-template-USRESP)
+
+    -   [Past winners and honorable mentions](https://www.causeweb.org/usproc/projects/winners)
+
+## About you: submitting to USRESP
+
+![](figures/survey-submit-usresp.jpg){width="536"}
+
+Discuss with your team:
+
+-   Who in your team wants to participate to the writing?
+
+-   Who could be your advisor(s) \[*that is, who could give you feedback and supervise your paper*\]? When will you ask them?
+
+## Tools
+
+::: nonincremental
+In the `paper` folder, the skeleton uses Quarto for writing a paper. Look at use of:
+
+-   child-documents
+
+-   section planning
+
+-   cross-references Sections, Equations, Figures and Tables
+
+-   references
+
+-   quick demo of adding new references
+:::
+
+. . .
+
+::: nonincremental
+The file `03-results.qmd` has an example table created with **kable and kable extra**
+
+-   Check out [their vignette](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html)
+:::
+
+## Your Feedback for me {{< fa handshake >}}
+
+Please take a moment to provide feedback for future editions of this workshop!
+
+::: {.columns .v-center-container}
+::: {.column width="50%"}
+### Link
+
+<br> <br> [bit.ly/isi-buds-writers-24](bit.ly/isi-buds-writers-24)
+:::
+
+::: {.column width="50%"}
+### QR code
+
+![](figures/feedback-qr-code.png){width="536"}
+:::
+:::
+
+# Thank you! <br>
+
+*Reach out to me for any questions*
+
+{{< fa envelope >}}   fzricci\@uci.edu
+
+{{< fa globe >}}   <https://federicazoe.github.io/>
