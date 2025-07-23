@@ -1,6 +1,6 @@
 # Instructions
 
-Divide your team in 2 sub-teams: sub-team 1 will work on background, sub-team 2 on significance. 
+Divide your team in 2 sub-teams: sub-team 1 will work on background, sub-team 2 on significance.
 
 Dedicate 10 minutes to Part 1 and 5 minutes to Part 2.
 
@@ -8,13 +8,27 @@ Dedicate 10 minutes to Part 1 and 5 minutes to Part 2.
 
 ### Sub-team 1 - Background
 
-1. What is the general information that the reader should know about your topic? What sources may you cite? 
+1.  What is the general information that the reader should know about your topic? What sources may you cite?
 
-YOUR ANSWER HERE
+-   A4 study back
+
+-   what is alzheimers
+
+-   what it means to be preclinical
+
+-   what is CDR Global
+
+-   overview of all the tests
+
+-   source: new england paper, A4 study cite, other personal references
 
 [Examples: how does a disease manifest, what is the incidence in the population, whether sub-populations are especially affected; any historical information relevant for your topic; etc.]
 
-2. What other studies have looked at a similar problem? How is your study different? Is there other literature that you should search, and what keywords could you use to search?
+2.  What other studies have looked at a similar problem? How is your study different? Is there other literature that you should search, and what keywords could you use to search?
+
+-   emphasize the point that we're trying to find an early indicator for alzheimer's in preclincal people
+
+-   paul sent us paper
 
 YOUR ANSWER HERE
 
@@ -22,30 +36,28 @@ YOUR ANSWER HERE
 
 ### Sub-team 2 - Significance
 
-- Why is do you feel that this topic is significant?
-
-YOUR ANSWER HERE 
-
-- What contribution could your work provide to the broader understanding of this topic?
+-   Why is do you feel that this topic is significant?
 
 YOUR ANSWER HERE
 
-- Is there a figure that you could include in the introduction that could help the reader immediately get into the context of this work? Describe it.
+-   What contribution could your work provide to the broader understanding of this topic?
+
+YOUR ANSWER HERE
+
+-   Is there a figure that you could include in the introduction that could help the reader immediately get into the context of this work? Describe it.
 
 YOUR ANSWER HERE
 
 ## Part 2
 
-1.  Sub-team 1: show your work to Sub-team 2. 
+1.  Sub-team 1: show your work to Sub-team 2.
 
-2.  Sub-team 2: show your work to Sub-team 2. 
+2.  Sub-team 2: show your work to Sub-team 2.
 
-3. Together: how could you order this content logically?
-
-YOUR ANSWER HERE
-
-4. Together: what is one thing that is missing from your current sketch?
+3.  Together: how could you order this content logically?
 
 YOUR ANSWER HERE
 
+4.  Together: what is one thing that is missing from your current sketch?
 
+YOUR ANSWER HERE
